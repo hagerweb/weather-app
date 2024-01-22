@@ -1,0 +1,208 @@
+<html>
+    <title> Weather Site</title>
+    <head>
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&family=Pacifico&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+    
+    
+
+    <body>
+
+        <nav class="navbar navbar-expand-lg  navbar-light bg-light  blue  p-5 ">
+
+            <div class="container   w-75 m-auto">
+
+                <a class="brand d-flex  link-underline link-underline-opacity-0" href="#">
+                    <img src="Images/logo@2x.png" alt="" class="logo mt-2" width="64" height="35">
+                    <div class="logo-type  ms-3  ">
+                        <h1 class="site-title h5 text-white">Weather</h1>
+                        <small class="site-description fs-gray ">tagline goes here</small>
+                    </div>
+                </a>
+              <button class="navbar-toggler text-white fs-2 border border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                
+                <i class=" fa-solid fa-bars"></i>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-lg-4 ">
+                  <li class="nav-item">
+
+                    <a class=" nav-link home-link  active text-white" aria-current="page" href="#home">Home</a>
+                  </li>
+                 
+                  <li class="nav-item ">
+                    <a class=" nav-link   text-white " href="#">News</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link   text-white" href="#services">Live Cameras</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link    text-white" href="#works">Photos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link    text-white" href="#works">contact</a>
+                  </li>
+                 
+                 
+                 
+
+                 
+                 
+                 
+                 
+                </ul>
+              
+              </div>
+            </div>
+          </nav>
+
+        <div class="content">
+          <form action="//" class=" position-relative p-5">
+          <input type="text" placeholder="Find Your Location" class="form-control bg-white w-75 m-auto p-3  "  id="search" >
+         <button class="btn b-blue text-white py-2 px-4 find" id="find">Find </button>
+          </form>
+
+          <div class="container w-75 rounded-4">
+            <div class="row ">
+
+              <div class="col-md-4 text-white blue-b  py-4 px-3 ">
+                <div class="forcast-day d-flex justify-content-between py-2  ">
+                  <h2 class="h6 " id="today">friday</h2>
+                  <div class="dayNum d-flex  gap-2">
+                    <h3 class="h6" id="todayNum">32</h3>
+
+                    <h3 class="h6" id="todayMon">july</h3>
+                  </div>
+                  
+    
+                </div>
+
+                <div class="forecast-content" id="current">
+                  <div class="location text-gray py-2 fs-3" id="location">Cairo</div>
+                  <div class="degree d-flex  ">
+                      <div class="num fs-7 pe-5" id="temp">20<sup>o</sup>C</div>
+                    
+                      <div class="forecast-icon">
+                          <img src="Images/R.jpeg" alt="" width="90" class="mt-4" id="wImg">
+                      </div>	
+                  
+                  </div>
+                  <div class="custom color-blue" id="text">Partly cloudy</div>
+                             <div class="data mt-2 text-b-gray d-flex gap-3">
+
+                              <div class="icon">
+                                <i class="fa-solid fa-umbrella pe-1 text-gray" ></i>
+                                <span class="pe-2" id="umbrella">20%</span>
+                              </div>
+                              <div class="icon">
+                                <i class="fa-solid fa-wind pe-1 text-gray"></i>
+                                <span  class="pe-2"  id="wind">18km/h</span>
+
+                              </div>
+                              <div class="icon">
+                                <i class="fa-regular fa-compass pe-1 text-gray" ></i>
+                                <span  class="pe-2" id="compass">East</span>
+                              </div>
+                              
+                              
+                             </div>
+                  </div>
+
+
+              </div>
+
+
+
+
+              <div class="col-md-4 text-white blue-b2  text-center py-4 px-3 ">
+                <div class="forcast-tomrrow   ">
+                  <h2 class="h6 nextday">Sunday</h2>
+                 
+                   
+                    <div class="forecast-content">
+                        <div class="forecast-icon">
+                            <img src="Images/R.jpeg" alt="" width="48" class="mt-5 nextDayImg">
+                        </div>
+                        <div class="degree mt-4 fs-3 fw-bold nextDayMax">24.6<sup>o</sup>C</div>
+                        <small class="nextDayMin">15<sup>o</sup></small>
+                        <div class="custom color-blue mt-4 nextDayText">Snny</div>
+                    
+                    </div>
+    
+                </div>
+
+                
+
+
+              </div>
+
+               <div class="col-md-4 text-white blue-b  text-center py-4 px-3 ">
+                <div class="forcast-tomrrow   ">
+                  <h2 class="h6 nextday">Sunday</h2>
+                 
+                   
+                    <div class="forecast-content">
+                        <div class="forecast-icon">
+                            <img src="Images/R.jpeg" alt="" width="48" class="mt-5 nextDayImg">
+                        </div>
+                        <div class="degree mt-4 fs-3 fw-bold nextDayMax">24.6<sup>o</sup>C</div>
+                        <small class="nextDayMin" >15<sup>o</sup></small>
+                        <div class="custom color-blue mt-4 nextDayText">Snny</div>
+                    
+                    </div>
+    
+                </div>
+
+                
+
+
+              </div>
+
+              
+             
+            </div>
+           </div>
+
+
+
+           <footer class="site-footer mt-5 blue p-5">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-8">
+                  <form action="#" class="subscribe-form w-75 m-auto position-relative ">
+                    <input type="text" placeholder="Enter your email to subscribe..." class="form-control">
+                    <button class="btn b-blue text-white py-2 px-4 sub">Subscribe </button>
+                    
+                  </form>
+                </div>
+                <div class="col-md-3 col-md-offset-1">
+                  <div class="social-links d-flex gap-2 mt-4 fs-5 ">
+                    <a href="#"><i class="fa-brands fa-facebook color-blue"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter color-blue"></i></a>
+                    <a href="#"><i class="fa-brands fa-google-plus-g color-blue"></i></a>
+                    <a href="#"><i class="fa-brands fa-pinterest color-blue"></i></a>
+                  </div>
+                </div>
+              </div>
+    
+              <p class="text-center fs-gray w-75 m-auto fs-6 mt-5">Copyright 2024 Company name. Designed by Themezy. All rights reserved</p>
+            </div>
+          </footer>
+         
+        </div>
+      
+
+        
+     
+        <!-- <script src="Js/bootstrap.bundle.min.js"></script> -->
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+        <script src="js/mine.js"></script>
+    </body>
+</html>

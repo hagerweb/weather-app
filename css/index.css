@@ -1,0 +1,81 @@
+.blue{
+    background-color: #1e202b !important;
+}
+.blue-b{
+    background-color: #323544;
+}
+.blue-b2{
+    background-color: #242632;
+}
+.color-blue{
+    color: #009ad8;
+}
+.b-blue {
+    background-color: #009ad8;
+}
+.fs-gray{
+    color: #BFC1C8;
+    font-size: 10px;
+}
+.text-b-gray{
+    color: #f9fafd;
+}
+.text-gray{
+    color: #BFC1C8;
+}
+.fs-7{
+    font-size: 90px;
+}
+.active {
+    margin-top: 5px;
+    border: 2px solid #009ad8;
+    border-radius:25px;
+    color: #009ad8;
+    padding-inline: 20px !important;
+    padding-block: 2px !important;
+    font-size:15px ;
+
+}
+.nav-link{
+    transition: 0.4s all;
+}
+.nav-link:hover{
+    border: 2px solid #009ad8;
+    border-radius:25px;
+    color: #009ad8;
+    padding-inline: 20px !important;
+    padding-block: 2px !important;
+    font-size:15px ;
+
+}
+.content{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.6) 0% 100%) , url('../images/pexels-photo-57553.jpeg');
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+}
+.form{
+    position: relative !important;
+
+}
+.find{
+    position: absolute !important;
+    top: 37%;
+    right: 15.5%;
+}
+.row{
+    border-radius: 10px !important;
+}
+.form-control{
+    padding: 13px;
+}
+.sub{
+    position: absolute !important;
+    top: 9%;
+    right: 2%;
+}
+button:hover{
+background-color: #03a9eb !important;
+}
